@@ -16,10 +16,8 @@ public class Main2 {
         userService.saveUser("Миша","Шехурин",(byte)25);
         userService.saveUser("Ильяр","Газизов",(byte)24);
         userService.getAllUsers();
-        System.out.println(userService.getAllUsers().size());
         userService.cleanUsersTable();
         userService.dropUsersTable();
-        //////////////////////////////
         userService.dropUsersTable();
         userService.createUsersTable();
         userService.saveUser("Олег","Масюта",(byte)24);
